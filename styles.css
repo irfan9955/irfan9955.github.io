@@ -301,7 +301,7 @@ span {
     width: 120px;
 }
 
-.project-container {
+/* .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -381,7 +381,336 @@ span {
     transform: scale(1.1);
     transition: 0.5s;
     background-color: var(--main-color);
-}
+} */
+
+
+
+
+
+/* --------my  projects --------- */
+
+#project {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #project #h3 {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Desktop screen */
+  #created {
+    /* display: flex; */
+    display: none;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  .work {
+    border-radius: 10px;
+    width: 22.5%;
+    margin: auto;
+  }
+  
+  .work img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.9s;
+  }
+  
+  .work {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #5a96d1);
+    border-radius: 10px;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5% 0 5%;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.3s;
+  }
+  
+  .layer #h3 {
+    font-weight: 200;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2vw;
+    background: transparent;
+  }
+  
+  .layer p {
+    color: #fff;
+    line-height: 18px;
+    padding: 0px 10%;
+    width: 80%;
+    background: transparent;
+    /* border: 1px solid black; */
+  }
+  
+  .layer a {
+    margin-top: 10%;
+    color: #5a96d1;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    background: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 3% 0 3%;
+  }
+  
+  
+  .newlayer a {
+    margin-top: 10%;
+    color: #5a96d1;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    background: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 3% 0 3%;
+  }
+  
+  
+  .layer a:hover {
+    background-color: #5a96d1;
+    color: white;
+    border: 4px solid white;
+  }
+  
+  .work:hover img {
+    transform: scale(0.5);
+    opacity: 0.6;
+  }
+  
+  .work:hover .layer {
+    height: 100%;
+  }
+  
+  /* -------- my projects ended ---------- */
+
+
+
+
+
+
+
+/* ----------contact ----------------- */
+
+
+#contact {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    padding-top: 100px;
+  }
+  
+  #contactme {
+    width: 77%;
+    /* border: 1px solid green; */
+    margin: auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 35% 54%;
+    justify-content: space-between;
+    color: rgb(183, 183, 183)
+  }
+  
+  #firstcontact {
+    /* border: 1px solid yellow; */
+    color: rgb(183, 183, 183);
+  }
+  
+  #firstcontact>h1 {
+    color: white;
+    font-size: 30px;
+  
+  }
+  
+  #firstcontact img {
+    height: 35px;
+    width: 35px;
+    margin-left: 17px;
+  }
+  
+  #firstcontact p a {
+    text-decoration: none;
+    color: #5a96d1;
+  }
+  
+  #git {
+    margin-top: 42px;
+  }
+  
+  #git,
+  #tele,
+  #all {
+    display: flex;
+    margin-bottom: 27px;
+    align-items: flex-end;
+  }
+  
+  #firstcontact p {
+    padding-left: 14px;
+    font-weight: 600;
+  }
+  
+  #firstcontact button {
+    /* color: white; */
+    margin-top: 28px;
+    margin-left: 17px;
+    background-color: #5a96d1;
+    border-radius: 7px;
+    padding: 10px 22px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  #submit,
+  #contact-button {
+    background-color: #5a96d1;
+    border-radius: 7px;
+    padding: 10px 22px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+  }
+  
+  #about-left button:hover,
+  #firstcontact button:hover,
+  #submit:hover {
+    background-color: rgb(244, 238, 238);
+    border: 2px solid #5a96d1;
+  }
+  
+  #secondcontact {
+    /* width: 50%; */
+    /* border: 1px solid red; */
+    /* background-color: black; */
+  }
+  
+  #secondcontact input {
+    margin-top: 1.5%;
+    width: 90%;
+    padding: 3% 3% 3% 2%;
+    border: black;
+    border-radius: 10px;
+    /* color: black; */
+    background-color: black;
+    color: black;
+  }
+  
+  #secondcontact input:focus {
+    outline: none;
+  }
+  
+  #secondcontact #msg {
+    height: 50px;
+  }
+  
+  #secondcontact form:nth-child(3):focus {
+    outline: none;
+  }
+  
+  
+  
+  /* --------------------------------------------contact ended */
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #git-stats {
     background-size: cover;
