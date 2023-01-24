@@ -397,7 +397,7 @@ span {
     text-align: center;
     padding-top: 5%;
     font-size: 3vw;
-    color: rgb(255, 255, 255);
+    color: rgb(6, 0, 0);
   }
   
   /* Desktop screen */
@@ -412,7 +412,10 @@ span {
   .work {
     border-radius: 10px;
     width: 22.5%;
-    margin: auto;
+    /* margin: auto; */
+    margin-right: 30px;
+
+    border: 1px solid black;
   }
   
   .work img {
