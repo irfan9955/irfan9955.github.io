@@ -1220,3 +1220,14 @@ span {
   
   /* -------- my projects ended ---------- */
 
+
+
+
+
+  @media all and (min-width: 54px) and (max-width: 500px){
+    #contactme{
+        width: 100%;
+        margin: auto;
+    }
+  }
+
