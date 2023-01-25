@@ -415,7 +415,7 @@ span {
     /* margin: auto; */
     margin-right: 30px;
 
-    border: 1px solid black;
+    border: px solid black;
   }
   
   .work img {
@@ -1087,3 +1087,136 @@ span {
         margin: 0;
     } */
 }
+
+
+
+
+
+
+
+
+
+/* --------my  projects --------- */
+
+#project {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #project #h3 {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 3vw;
+    color: white;
+  }
+  
+  /* Desktop screen */
+  #created {
+    /* display: flex; */
+    display: none;
+    width: 94%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  .work {
+    border-radius: 10px;
+    width: 22.5%;
+    margin: auto;
+  }
+  
+  .work img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.9s;
+  }
+  
+  .work {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #5a96d1);
+    border-radius: 10px;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5% 0 5%;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.3s;
+  }
+  
+  .layer #h3 {
+    font-weight: 200;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2vw;
+    background: transparent;
+  }
+  
+  .layer p {
+    color: #fff;
+    line-height: 18px;
+    padding: 0px 10%;
+    width: 80%;
+    background: transparent;
+    /* border: 1px solid black; */
+  }
+  
+  .layer a {
+    margin-top: 10%;
+    color: #5a96d1;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    background: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 3% 0 3%;
+  }
+  
+  
+  .newlayer a {
+    margin-top: 10%;
+    color: #5a96d1;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    background: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 3% 0 3%;
+  }
+  
+  
+  .layer a:hover {
+    background-color: #5a96d1;
+    color: white;
+    border: 4px solid white;
+  }
+  
+  .work:hover img {
+    transform: scale(0.5);
+    opacity: 0.6;
+  }
+  
+  .work:hover .layer {
+    height: 100%;
+  }
+  
+  /* -------- my projects ended ---------- */
+
